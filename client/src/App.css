@@ -1,0 +1,199 @@
+.flex-box {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  /* font-family: ;*/
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  /* color: burlywood; */
+  /* color: #fff; */
+}
+a:hover {
+  color: #fff;
+  /* border-bottom: 2px solid #fff; */
+}
+.nav-bar {
+  display: flex;
+  background-color: #ad1457;
+  /* height: 5rem; */
+}
+.nav-bar a {
+  color: #fff;
+}
+.nav-bar a:hover {
+  color: rgb(248, 179, 179);
+}
+.nav-logo {
+  user-select: none;
+  font-size: 1.9rem;
+  padding: 0.5rem 0.5rem;
+  margin: 0rem 1rem;
+  /* color: burlywood; */
+  color: #fff;
+}
+.nav-logo h3 {
+  /* background-color: aqua; */
+  margin-left: 6rem;
+  /* margin-right: -1rem; */
+  font-size: xx-large;
+}
+.nav-links {
+  /* background-color: blue; */
+  margin: 0.3rem 2rem;
+  display: flex;
+  gap: 4rem;
+  padding: 0 0.6rem;
+  color: burlywood;
+}
+.nav-links h5 {
+  /* background-color: blue; */
+  margin-top: 1rem;
+  font-weight: lighter;
+  font-size: medium;
+}
+.btn-login {
+  background-color: transparent;
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-right: -1rem;
+  padding: 0.3rem;
+  width: 4.3rem;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+}
+.btn-signup {
+  background-color: transparent;
+  color: #fff;
+  margin-top: 0.5rem;
+  /* margin-left: 1rem; */
+  padding: 0.3rem 0.3rem;
+  width: 4.3rem;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+}
+.cart-profile {
+  /* background-color: blue; */
+  display: flex;
+  gap: 5rem;
+  width: auto;
+  margin-top: 0.2rem;
+  color: #fff;
+  font-size: 1.9rem;
+  /* margin-left: 10rem; */
+}
+.upper-section {
+  padding-top: 5.5rem !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 8rem;
+  height: 20rem;
+}
+.heading {
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+}
+.btn-enroll {
+  margin-top: 1rem;
+  background-color: #ad1457;
+  color: #fff;
+}
+img {
+  box-shadow: 5px 5px 15px gray;
+}
+.lower-section {
+  text-align: center;
+}
+/* .carousel-here
+{
+  width: 50rem;
+  height: 20rem;
+} */
+.footer {
+  width: 100vw;
+  height: 5rem;
+  background-color: #ad1457;
+  margin-top: auto;
+  margin-bottom: 0%;
+}
+.footer p {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  /* text-transform: capitalize; */
+  line-height: 5rem;
+}
+/* --------------------------Buy-Courses-CSS----------------------- */
+
+.cards {
+  border-radius: 7px;
+  padding-left: 40px;
+  background-color: pink;
+  width: 30%;
+  height: 15rem;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.btn-cart {
+  padding: 0.6rem;
+  /* background-image: linear-gradient(to right, #5e35b1,#8e24aa,#c158dc); */
+  /* background-image: linear-gradient(20deg, #ad1457, #c2185b,#fa5788); */
+  /* background-image: linear-gradient(20deg, #5f162e, #C6426E);*/
+  background-image: linear-gradient(to left, #ff00cc 0%, #333399 110%);
+  color: #fff;
+  border-bottom-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
+  border: none;
+}
+.btn-buy {
+  padding: 0.6rem;
+  width: 18rem;
+  /* background-image: linear-gradient(to right, #5e35b1,#8e24aa,#c158dc); */
+  /* background-image: linear-gradient(20deg, #ad1457, #c2185b,#fa5788); */
+  /* background-image: linear-gradient(20deg, #5f162e, #C6426E);*/
+  background-image: linear-gradient(to left, #ff00cc 0%, #333399 110%);
+  color: #fff;
+  /* border-radius: 0.2rem; */
+  border: none;
+}
+.btn-doubt {
+  padding: 0.6rem;
+  background-image: linear-gradient(to left, #ff00cc 0%, #333399 110%);
+  color: #fff;
+  border: none;
+  display: block;
+  margin: auto;
+}
+.profile-table {
+  display: block;
+  margin: auto auto auto 15vw;
+  /* border: 0.1rem solid #333399; */
+}
+th,
+td {
+  border: 0.1rem solid #333399;
+  padding: 0.7rem;
+  text-align: center;
+}
+.btn-delete {
+  margin: auto 0.4rem auto 0.4rem;
+  padding: 0.6rem;
+  background-image: linear-gradient(to left, #ff00cc 0%, #333399 110%);
+  color: #fff;
+  border-radius: 0.2rem;
+  border: none;
+}
